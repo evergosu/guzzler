@@ -17,6 +17,13 @@
       "autoinstallerName": "rush-prettier",
       // This will invoke common/autoinstallers/rush-prettier/node_modules/.bin/pretty-quick
       "shellCommand": "pretty-quick --staged"
+    },
+    {
+      "commandKind": "bulk",
+      "name": "start",
+      "summary": "Start servers",
+      "description": "Try to run start command agains every project to start server",
+      "enableParallelism": true
     }
     // {
     //   /**
