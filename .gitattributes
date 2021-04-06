@@ -12,3 +12,5 @@ yarn.lock                    merge=binary
 # For more information, see this issue: https://github.com/microsoft/rushstack/issues/1088
 #
 *.json                       linguist-language=JSON-with-Comments
+# Make sure that entire git repository only contains Linux-style line endings in files.
+* text=auto eol=lf
